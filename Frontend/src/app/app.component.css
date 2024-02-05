@@ -1,0 +1,105 @@
+/* Apply a background color and set font styles for the body */
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style the main container with rounded borders */
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  /* Style the header with a background color, text color, and rounded top borders */
+  h1 {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  /* Style the navigation links */
+  nav {
+    margin-top: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #007bff;
+    margin-right: 10px;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  nav a:hover {
+    color: #0056b3;
+  }
+  
+  /* Style the router outlet area with rounded borders */
+  router-outlet {
+    margin-top: 20px;
+    border-radius: 10px;
+    overflow: hidden; /* Ensure content stays within the rounded borders */
+  }
+  
+  /* Style the buttons with rounded borders */
+  button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style form elements with rounded borders */
+  form {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Style the submit button with rounded borders */
+  button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: 2px solid #007bff; /* Add a border */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s; /* Transition for smooth hover effect */
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+    border-color: #0056b3; /* Change border color on hover */
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  

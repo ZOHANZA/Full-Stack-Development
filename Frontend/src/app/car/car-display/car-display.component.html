@@ -1,0 +1,5 @@
+<div *ngFor="let car of car">
+    {{car.id}}
+    {{car.name}}
+    <button (click) ="ondelete(car._id)"> Delete </button>
+</div>

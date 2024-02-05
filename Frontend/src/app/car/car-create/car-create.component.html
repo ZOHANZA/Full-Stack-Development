@@ -1,0 +1,33 @@
+<form (submit)=" onaddCar (addCar)" #addCar="ngForm"> 
+
+    <input type ="text"     
+    ngModel name="enteredID"     
+    placeholder ="Car ID"     
+    required    
+    minlength="1"     
+  pattern ="^[a-zA-Z0-9\s_-]+$"     
+   #enteredID ="ngModel"/> 
+    
+ <input type ="text"     
+    ngModel name="enteredName"     
+   placeholder ="Car Name"      
+     required     
+     minlength="1"     
+    pattern ="^[a-zA-Z0-9\s_-]+$"     
+    #enteredName ="ngModel"/> 
+
+    <input type ="text"     
+    ngModel name="enteredYear"     
+   placeholder ="Year Made"      
+     required     
+     minlength="1"     
+    pattern ="^[a-zA-Z0-9\s_-]+$"     
+    #enteredName ="ngModel"/> 
+    
+     
+    
+    <button type = "submit" >Add Car</button> 
+    
+    </form> 
+    
+     
