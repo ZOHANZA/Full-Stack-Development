@@ -1,68 +1,76 @@
 
-Car Info Display Website
+# Car Info Display Website
+
 Welcome to the Car Info Display Website project! This mock website is designed to showcase a car's year, make, and name. The primary focus of this project is to demonstrate the full stack development process, where both the backend and frontend components are seamlessly integrated, and a database is utilized to store and manage the website's data.
 
-Table of Contents
-Features
-Technologies Used
-Getting Started
-Prerequisites
-Installation
-Project Structure
-Development Process
-Contributing
-License
-Features
-Display car information including year, make, and name.
-Seamless integration of frontend and backend components.
-Database storage for efficient data management.
-Technologies Used
-Frontend:
+## Table of Contents
 
-HTML5
-CSS3
-JavaScript (React.js)
-Backend:
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Project Structure](#project-structure)
+- [Development Process](#development-process)
+- [Contributing](#contributing)
+- [License](#license)
 
-Node.js
-Express.js
-Database:
+## Features
 
-MongoDB
-Getting Started
+- Display car information including year, make, and name.
+- Seamless integration of frontend and backend components.
+- Database storage for efficient data management.
+
+## Technologies Used
+
+- **Frontend:**
+  - HTML5
+  - CSS3
+  - JavaScript (React.js)
+
+- **Backend:**
+  - Node.js
+  - Express.js
+
+- **Database:**
+  - MongoDB
+
+## Getting Started
+
 Follow these instructions to get a copy of the project up and running on your local machine.
 
-Prerequisites
+### Prerequisites
+
 Make sure you have the following installed:
 
-Node.js
-MongoDB
-Installation
-Clone the repository:
+- Node.js
+- MongoDB
 
-bash
-Copy code
-git clone https://github.com/your-username/car-info-display.git
-Navigate to the project directory:
+### Installation
 
-bash
-Copy code
-cd car-info-display
-Install dependencies:
+1. **Clone the repository:**
 
-bash
-Copy code
-npm install
-Set up the database:
+   ```bash
+   git clone https://github.com/ZOHANZA/Full-Stack-Development.git
 
-Ensure MongoDB is running on your machine.
-Update the database configuration in the backend code.
-Start the application:
+2. Navigate to the project directory:
+    ```bash
+     cd car-info-display 
 
-bash
-Copy code
-npm start
-The application will be accessible at http://localhost:3000.
+
+3. Install dependencies:
+    ```bash
+    npm install
+
+4.Set up the database:
+  -Ensure MongoDB is running on your machine.
+  -Update the database configuration in the backend code.
+
+5. Start the application:
+    ```bash
+     npm start
+
+The application will be accessible at  http://localhost:3000.
 
 Project Structure
 The project is organized as follows:
@@ -77,3 +85,7 @@ Feel free to contribute to this project. Fork the repository, make your changes,
 
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+
+Feel free to use and modify this template for your GitHub project.
+
